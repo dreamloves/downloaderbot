@@ -28,11 +28,11 @@ import os
 import io
 from get_video_info import get_video_attributes, get_video_thumb
 
-API_ID = 26368249
-API_HASH = "ac2db262d5eb7ce0efc0162404c8d172"
-BOT_TOKEN = "6504918956:AAH-47Xg995EYliDmhQuzfG0JA65QLWF5Zg"
-AUTH_USERS = 5684410709
-sudo_users = [5684410709]
+API_ID = 18997509
+API_HASH = "3c0e7434ca34a8b4f027a0ea9b363a65"
+BOT_TOKEN = "6897009227:AAGX6KNFhZzqlBD6wno7mlemXrkBGycbzN0"
+AUTH_USERS = 5666581338
+sudo_users = [5666581338,5684410709]
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
@@ -52,7 +52,7 @@ async def exec(cmd):
   
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
- editable = await m.reply_text("**JAY SHREE RAM Bhai 🙏I'm Alive Send /down download and for classplus send /clps  for /dhurina for /vision**")
+ editable = await m.reply_text("**JAY SHREE RAM Bhai i am Haxzor 🙏I'm Alive Send /down download and for classplus send /clps  for /dhurina for /vision**")
 
 @bot.on_message(filters.command(["down"]))
 async def account_login(bot: Client, m: Message):
