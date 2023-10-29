@@ -52,7 +52,7 @@ async def exec(cmd):
   
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
- editable = await m.reply_text("**JAY SHREE RAM Bhai i am Haxzor 🙏I'm Alive Send /down download and for classplus send /clps  for /dhurina for /vision**")
+ editable = await m.reply_text("**JAY SHREE RAM Bhai i am Haxzor 🙏I'm Alive Send /down download and for classplus send /clps  for /Rahul for /vision**")
 
 @bot.on_message(filters.command(["down"]))
 async def account_login(bot: Client, m: Message):
@@ -230,7 +230,7 @@ async def account_login(bot: Client, m: Message):
     except:
         arg = 0
 
-    editable = await m.reply_text("**Enter Title📥**")
+    editable = await m.reply_text("**Haxzor**")
     input0: Message = await bot.listen(editable.chat.id)
     raw_text0 = input0.text
 
@@ -486,7 +486,7 @@ async def account_login(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}+bestaudio" --hls-prefer-ffmpeg --no-keep-video --no-check-certificate --remux-video mkv "{url}" -o "{name}.%(ext)s"'
             print(cmd)
             try:
-                Show = f"**Downloading 📥:-**\n\n**Name :-** `{name}\nQuality - {raw_text2}`\n\n**Url :-** `{url}`"
+                Show = f"**Bot made by Pankaj Yadav**\n\n**Name :-** `{name}\nQuality - {raw_text2}`\n\n**Url :-** `{url}`"
                 prog = await m.reply_text(Show)
                 cc = f'{str(count).zfill(3)}**.** {name1} {res}\n\n**Batch :-** {raw_text0}'
                 cc1 = f'{str(count).zfill(3)}**.** {name1} {res}.pdf\n\n**Batch :-** {raw_text0}'
@@ -585,7 +585,7 @@ async def account_login(bot: Client, m: Message):
     except:
         arg = 0
 
-    editable = await m.reply_text("**Enter Title**")
+    editable = await m.reply_text("**Pankaj**")
     input0: Message = await bot.listen(editable.chat.id)
     raw_text0 = input0.text
 
